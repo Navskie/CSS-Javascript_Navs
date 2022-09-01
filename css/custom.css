@@ -1,0 +1,169 @@
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
+.container {
+  width: 80%;
+  margin: auto; /*margin na naka auto*/
+}
+
+.box-1 {
+  background-color: #333;
+  color: #fff;
+  border-top: 1px red solid;
+  border-right: 2px blue solid;
+  border-bottom: 3px green solid;
+  border-left: 4px yellow solid;
+  padding: 20px;
+  margin-top: 20px;
+  /* top 1 right 2 bottom 3 left 4 */
+  /* x 13 y 24 */
+}
+
+.box-2 {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px 20px;
+}
+
+.box-3 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+}
+.box-3 h1 {
+  text-align: center;
+}
+.box-3 ul {
+  padding: 0px;
+  padding-left: 30px;
+  list-style: none;
+}
+.box-3 li {
+  padding-bottom: 8px;
+  border-bottom: dotted 1px #ccc;
+  list-style-image: url('/image/check.png');
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: blue;
+}
+/* a:visited {
+  color: yellow;
+} */
+
+.my-form {
+  padding: 20px;
+}
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+.my-form label {
+  display: block;
+}
+.my-form input[type="text"],.my-form input[type="email"], .my-form textarea {
+  padding: 9px;
+  width: 100%;
+}
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.main-block {
+  float: left;
+  width: 70%;
+}
+
+.side-bar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* static default position */
+/* relative gumagawa siya ng sariling position */
+/* absolute */
+/* relative */
+/* fixed */
+/* initial */
+/* inherit */
+
+.position-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url('/image/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
+.position-box h1 {
+  position: absolute;
+  top: 40px;
+  left: 120px;
+}
+
+.position-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-po {
+  position: fixed;
+  top: 45%;
+}
+
+/* .my-list li:first-child {
+  background-color: pink;
+}
+.my-list li:last-child {
+  background-color: green;
+}
+.my-list li:nth-child(5) {
+  background-color: gold;
+} */
+.my-list li:nth-child(even) {
+  background-color: #ccc;
+}
+.my-list li:nth-child(odd) {
+  background-color: #333;
+}

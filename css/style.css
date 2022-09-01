@@ -1,0 +1,98 @@
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: teal;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.showcase {
+  background-image: url('/image/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  margin-bottom: 30px;
+}
+
+.showcase h1 {
+  color: #fff;
+  font-size: 35px;
+  line-height: 1.6em;
+  padding-top: 20px;
+}
+
+.showcase p {
+  color: #fff;
+}
+
+.main {
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.main-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 100%;
+    float: none;
+  }
+  .sidebar {
+    width: 100%;
+    float: none;
+  }
+}
